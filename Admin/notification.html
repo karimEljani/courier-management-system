@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succès - Email envoyé</title>
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .alert-container {
+            max-width: 500px;
+            margin: auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .alert-container .alert {
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 8px;
+        }
+
+        .alert-container .alert i {
+            font-size: 1.5rem;
+            color: #28a745;
+        }
+
+        .alert-container hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+            margin: 20px 0;
+        }
+
+        .alert-container p {
+            font-size: 1rem;
+            color: #555;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="alert-container">
+    <div class="alert alert-success">
+        <i class="fa-solid fa-circle-check"></i>
+        <h4 class="mt-3">Succès</h4>
+        <hr>
+        <p>Un email a été envoyé ! Veuillez vérifier votre boîte de réception. <i class="fas fa-envelope" style="color: #6c757d;"></i></p>
+    </div>
+</div>
+
+</body>
+</html>
